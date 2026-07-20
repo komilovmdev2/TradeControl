@@ -1,0 +1,58 @@
+const en = {
+  groupMain: "Main",
+  groupGrowth: "Growth",
+  groupAccount: "Account",
+  navDashboard: "Dashboard",
+  navJournal: "Trade Journal",
+  navAnalytics: "Analytics",
+  navCalendar: "Calendar",
+  navRiskCalculator: "Risk Calculator",
+  navStrategies: "Strategies",
+  navGoals: "Goals",
+  navReports: "Reports",
+  navAiCoach: "AI Coach",
+  navSettings: "Settings",
+  searchPlaceholder: "Search trades, pairs...",
+  notifications: "Notifications",
+  addTrade: "Add Trade",
+};
+
+const uz: Record<keyof typeof en, string> = {
+  groupMain: "Asosiy",
+  groupGrowth: "Rivojlanish",
+  groupAccount: "Hisob",
+  navDashboard: "Boshqaruv paneli",
+  navJournal: "Savdolar jurnali",
+  navAnalytics: "Analitika",
+  navCalendar: "Kalendar",
+  navRiskCalculator: "Risk kalkulyatori",
+  navStrategies: "Strategiyalar",
+  navGoals: "Maqsadlar",
+  navReports: "Hisobotlar",
+  navAiCoach: "AI murabbiy",
+  navSettings: "Sozlamalar",
+  searchPlaceholder: "Savdolar, juftliklarni qidirish...",
+  notifications: "Bildirishnomalar",
+  addTrade: "Savdo qo'shish",
+};
+
+const ru: Record<keyof typeof en, string> = {
+  groupMain: "Основное",
+  groupGrowth: "Развитие",
+  groupAccount: "Аккаунт",
+  navDashboard: "Дашборд",
+  navJournal: "Журнал сделок",
+  navAnalytics: "Аналитика",
+  navCalendar: "Календарь",
+  navRiskCalculator: "Калькулятор риска",
+  navStrategies: "Стратегии",
+  navGoals: "Цели",
+  navReports: "Отчёты",
+  navAiCoach: "AI-коуч",
+  navSettings: "Настройки",
+  searchPlaceholder: "Поиск сделок, пар...",
+  notifications: "Уведомления",
+  addTrade: "Добавить сделку",
+};
+
+export const nav = { en, uz, ru };
